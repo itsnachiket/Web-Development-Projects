@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.quote-container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 16px 32px;
+    width: 450px;
+    margin: auto;
+}
+
+.quote-button {
+    border: none;
+    font-family: Roboto;
+}
+
+.quote-icon {
+    height: 16px;
+}
+
+.my-container {
+    height: 80vh;
+}
+
+.tweet-icon {
+    position: relative;
+    top: 15px;
+    margin-left: 8px;
+    font-size: 40px;
+}
+
+
+@media(max-width: 576px) {
+    .quote-container {
+        font-size: 16px;
+        width: 300px;
+        margin-right: 32px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+
+    .quote-icon {
+        height: 16px;
+    }
+
+    .tweet-icon {
+        position: relative;
+        top: 14px;
+        margin-left: 8px;
+        font-size: 40px;
+    }
+
+    .my-container {
+        height: 70vh;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .quote-container {
+        font-size: 24px;
+        margin: auto;
+    }
+
+    .quote-button {
+        padding: 16px 24px;
+        font-weight: 500;
+    }
+
+    .quote-icon {
+        height: 24px;
+    }
+
+    .tweet-icon {
+        position: relative;
+        top: 18px;
+        margin-left: 8px;
+        font-size: 60px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .quote-container {
+        font-size: 32px;
+    }
+
+    .quote-button {
+        padding: 16px 24px;
+        font-weight: 500;
+    }
+
+    .quote-icon {
+        height: 32px;
+    }
+
+    .tweet-icon {
+        position: relative;
+        top: 21px;
+        margin-left: 8px;
+        font-size: 65px;
+    }
+
+}

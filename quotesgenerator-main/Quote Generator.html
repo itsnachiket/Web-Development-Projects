@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/516aac9a2f.js" crossorigin="anonymous"></script>
+
+    <script async src="https://platform.twitter.com/widgets.js" type=”text/javascript” charset="utf-8"></script>
+</head>
+
+<body class="p-5">
+    <div class="my-container d-flex flex-column justify-content-center">
+        <div class="quote-container p-5 text-left">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" class="svg-inline--fa fa-quote-left fa-w-16 quote-icon" role="img" viewBox="0 0 512 512" id="quoteIconEl">
+                <path fill="currentColor" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 
+                71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 
+                64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 
+                48-21.5 48-48V304c0-26.5-21.5-48-48-48z" />
+            </svg>
+            <p id="quotePara"></p>
+            <p id="authorPara" class="font-italic"></p>
+            <div class="button-section">
+                <button class="btn btn-primary quote-button mt-2" id="quoteButton">New Quote</button>
+                <a id="tweetLink" target="_new">
+                    <i class="fab fa-twitter-square tweet-icon" id="tweetIcon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <p class="text-center text-light mt-auto">Gajendra Muley</p>
+
+</body>
+
+</html>
